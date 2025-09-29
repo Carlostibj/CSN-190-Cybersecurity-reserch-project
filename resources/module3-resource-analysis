@@ -1,1 +1,52 @@
+Topic 1: Building a Malware Sandbox Environment
+Resource 1
+Citation: Kirat, D., Vigna, G., & Kruegel, C. (2014). BareCloud: Bare-metal analysis-based evasive malware detection. In USENIX Security Symposium. https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-kirat.pdf
+Type: Academic Conference Paper
+Synopsis (≤100 words): Introduces BareCloud, a bare-metal dynamic analysis system that minimizes sandbox detectability by avoiding in-guest monitors. Compares behavior on bare-metal versus common virtualized sandboxes to expose evasion. Strong design guidance for building a more transparent sandbox; main limitation is setup complexity and older dataset.
+Link: Same as citation.
+Relevance: 5/5 – Direct blueprint for anti-evasion sandbox design. USENIX+2USENIX+2
+Resource 2
+Citation: Alhashmi, M., Al-Shaer, E., & Alharbi, M. (2024). Unveiling the dynamic landscape of malware sandboxing. International Journal of Advanced Computer Science and Applications, 15(3), 1080–1093. https://thesai.org/Downloads/Volume15No3/Paper_137-Unveiling_the_Dynamic_Landscape_of_Malware_Sandboxing.pdf
+Type: Academic Article / Survey
+Synopsis: Surveys modern sandbox architectures, anti-analysis techniques, and ML-assisted behavior modeling; maps capability gaps and dataset issues. Broad but not an implementation guide.
+Link: Same as citation.
+Relevance: 4/5 – Frames literature review and requirements. The Science and Information Organization
+Resource 3
+Citation: Cuckoo Sandbox Project. (2024). Cuckoo Sandbox documentation (v2.x). Read the Docs. https://cuckoo.readthedocs.io/en/latest/
+Type: Tool Documentation
+Synopsis: Official Cuckoo install/config/extend docs (analysis packages, processing, reporting, REST API). Essential for a working baseline and automation. Community docs may lag repo changes.
+Link: https://cuckoo.readthedocs.io/en/latest/
+Relevance: 5/5 – Core build reference. Cuckoo Sandbox+2Read the Docs+2
+Resource 4
+Citation: Zeltser, L. (2022). REMnux: A Linux toolkit for malware analysis (documentation site). REMnux Project. https://docs.remnux.org/
+Type: Documentation / Practitioner Guide
+Synopsis: Curated toolkit and docs for malware analysis; complements sandboxing with reverse-engineering and artifact triage tools. Not a sandbox itself.
+Link: https://docs.remnux.org/
+Relevance: 4/5 – Enhances your environment and workflows. REMnux Documentation+2REMnux+2
+
+Topic 2: Digital Evidence Collection for Mobile Devices
+Resource 1
+Citation: Ayers, R., Brothers, S., & Jansen, W. (2014). Guidelines on Mobile Device Forensics (NIST SP 800-101 Rev. 1). National Institute of Standards and Technology. https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-101r1.pdf
+Type: Government Research Report / Standard
+Synopsis: Foundational guidance for preservation, acquisition (logical/physical), analysis, reporting, and chain-of-custody. Canonical for defensible SOPs; dated, so pair with newer tool docs.
+Link: Same as citation. (Also see overview page.)
+Relevance: 5/5 – The procedural backbone for your toolkit/SOP. NIST Publications+2NIST Computer Security Resource Center+2
+Resource 2
+Citation: Vasilaras, A., Kotsakis, E., & Ioannidis, S. (2024). Artificial intelligence in mobile forensics: A survey of current approaches. Forensic Science International: Digital Investigation, 48, 301001. https://doi.org/10.1016/j.fsidi.2024.301001
+Type: Academic Article / Survey
+Synopsis: Reviews AI/ML techniques assisting mobile forensics (triage, content classification, timeline reconstruction), plus pitfalls like dataset bias and explainability. Contextualizes where evidence collection fits in AI-assisted workflows.
+Link: https://www.sciencedirect.com/science/article/abs/pii/S2666281724000568 (may require library access)
+Relevance: 4/5 – Expands perspective on downstream analysis. ScienceDirect
+Resource 3
+Citation: Magnet Forensics. (2020). Magnet AXIOM User Guide (v5.x). https://092f6718.../Magnet%20AXIOM%20User%20Guide.pdf
+Type: Vendor Technical Documentation
+Synopsis: Step-by-step iOS/Android acquisition procedures; covers Quick vs. Full extraction, imaging workflows, and validation. Version-specific features may change.
+Link: Direct PDF in citation.
+Relevance: 5/5 – Highly actionable acquisition playbook. 092f67184f02fcdb918c-b3d937de523d4a3d4cea730efa685a0d.r37.cf1.rackcdn.com
+Resource 4
+Citation: Cellebrite. (2025, August 24). 10 best practices for digital evidence collection (Blog post). https://cellebrite.com/en/10-best-practices-for-digital-evidence-collection/
+Type: Professional Blog / Best-Practices Guide
+Synopsis: Practitioner checklist for defensible mobile evidence collection—document device state, preserve chain of custody, validate extractions, secure storage. Vendor-angled, but practical.
+Link: Same as citation.
+Relevance: 4/5 – Directly reinforces SOP and QA steps.
 
