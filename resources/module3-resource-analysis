@@ -1,6 +1,6 @@
 Topic 1: Building a Malware Sandbox Environment
 Resource 1
-Citation: Kirat, D., Vigna, G., & Kruegel, C. (2014). BareCloud: Bare-metal analysis-based evasive malware detection. In USENIX Security Symposium. https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-kirat.pdf
+Citation: Kirat, D., Vigna, G., & Kruegel, C. (2014). BareCloud: Bare-metal analysis-based evasive malware detection. In USENIX Security Symposium. chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-kirat.pdf
 Type: Academic Conference Paper
 Synopsis (≤100 words): Introduces BareCloud, a bare-metal dynamic analysis system that minimizes sandbox detectability by avoiding in-guest monitors. Compares behavior on bare-metal versus common virtualized sandboxes to expose evasion. Strong design guidance for building a more transparent sandbox; main limitation is setup complexity and older dataset.
 Link: Same as citation.
@@ -32,16 +32,16 @@ Synopsis: Foundational guidance for preservation, acquisition (logical/physical)
 Link: Same as citation. (Also see overview page.)
 Relevance: 5/5 – The procedural backbone for your toolkit/SOP. NIST Publications+2NIST Computer Security Resource Center+2
 Resource 2
-Citation: Vasilaras, A., Kotsakis, E., & Ioannidis, S. (2024). Artificial intelligence in mobile forensics: A survey of current approaches. Forensic Science International: Digital Investigation, 48, 301001. https://doi.org/10.1016/j.fsidi.2024.301001
-Type: Academic Article / Survey
-Synopsis: Reviews AI/ML techniques assisting mobile forensics (triage, content classification, timeline reconstruction), plus pitfalls like dataset bias and explainability. Contextualizes where evidence collection fits in AI-assisted workflows.
-Link: https://www.sciencedirect.com/science/article/abs/pii/S2666281724000568 (may require library access)
-Relevance: 4/5 – Expands perspective on downstream analysis. ScienceDirect
+Citation: Vasilaras, A., Papadoudis, N., & Rizomiliotis, P. (2024). Artificial intelligence in mobile forensics: A survey of current status, a use case analysis and AI alignment objectives. Forensic Science International: Digital Investigation, 49, 301737. https://www.sciencedirect.com/science/article/abs/pii/S2666281724000568
+Type: Academic Article
+Synopsis: This paper surveys the use of AI in mobile forensics, focusing on how practitioners view current forensic software and its AI functions. A key use case—image categorization—was evaluated using metrics such as accuracy, precision, recall, F1-score, and confusion matrices. The study highlights challenges with robustness, transparency, and interpretability in forensic AI systems, emphasizing the need for AI alignment with human values and standardized procedures. It concludes that stronger AI governance and more reliable, interpretable models are essential for forensic use.
+Link: https://www.sciencedirect.com/science/article/abs/pii/S2666281724000568
+Relevance: 5/5 – Provides a direct overview of AI applications, evaluation metrics, and alignment principles in mobile forensics, making it highly valuable for research on digital forensics and AI ethics.
 Resource 3
-Citation: Magnet Forensics. (2020). Magnet AXIOM User Guide (v5.x). https://092f6718.../Magnet%20AXIOM%20User%20Guide.pdf
+Citation: Magnet Forensics. (2020). Magnet AXIOM User Guide (v5.x). https://www.magnetforensics.com/blog/magnet-axiom-5-0-our-most-comprehensive-and-flexible-version-of-axiom-ever/
 Type: Vendor Technical Documentation
 Synopsis: Step-by-step iOS/Android acquisition procedures; covers Quick vs. Full extraction, imaging workflows, and validation. Version-specific features may change.
-Link: Direct PDF in citation.
+Link: https://www.magnetforensics.com/blog/magnet-axiom-5-0-our-most-comprehensive-and-flexible-version-of-axiom-ever/
 Relevance: 5/5 – Highly actionable acquisition playbook. 092f67184f02fcdb918c-b3d937de523d4a3d4cea730efa685a0d.r37.cf1.rackcdn.com
 Resource 4
 Citation: Cellebrite. (2025, August 24). 10 best practices for digital evidence collection (Blog post). https://cellebrite.com/en/10-best-practices-for-digital-evidence-collection/
